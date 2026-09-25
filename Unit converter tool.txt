@@ -1,0 +1,10 @@
+def convert():
+    v = float(input("Enter value: "))
+    u = input("Convert (Km/Miles): ")
+
+    if u.lower() == "km":
+        print(v * 0.621371, "Miles")
+    else:
+        print(v / 0.621371, "Km")
+
+convert()
